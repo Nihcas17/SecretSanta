@@ -1,0 +1,49 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and debug files
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables or config secrets (if any)
+*.env
+
+# Data files (you can adjust these based on your data folder)
+data/*.xlsx
+data/*.csv
+
+# Exclude only output or generated result files (optional suggestion)
+!data/README.md  # Keep a placeholder file if needed
+
+# Tests cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+coverage.xml
+.cache
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
